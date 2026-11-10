@@ -1,0 +1,8 @@
+{
+  "name": "Extreme Fun - Indoor Playground & Family Entertainment Center",
+  "description": "Experience thrilling indoor playground adventures, neon laser tag, arcade VR, unforgettable birthday party packages, gamified loyalty rewards, and delicious café in Richmond, BC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
