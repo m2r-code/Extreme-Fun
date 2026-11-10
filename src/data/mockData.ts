@@ -8,6 +8,11 @@ import {
   PromoNotification,
 } from '../types';
 
+import heroPlaygroundImg from '../assets/images/hero_indoor_playground_1794285571049.jpg';
+import laserTagImg from '../assets/images/attraction_laser_tag_1794285572347.jpg';
+import arcadeVrImg from '../assets/images/attraction_arcade_vr_1794285572816.jpg';
+import partyRoomImg from '../assets/images/party_celebration_room_1794285573337.jpg';
+
 export const mockAttractions: Attraction[] = [
   {
     id: 'adventure-maze',
@@ -16,7 +21,7 @@ export const mockAttractions: Attraction[] = [
     description: 'A colossal 4-level play jungle engineered for maximum fun and absolute safety. Features twin 30-foot spiral slides, spider-web climbs, suspension bridges, soft punch bags, and an ocean of soft anti-bacterial foam balls.',
     ageRange: 'Ages 3 – 12',
     capacity: 'Up to 150 kids',
-    image: '/src/assets/images/hero_indoor_playground_1794285571049.jpg',
+    image: heroPlaygroundImg,
     highlights: ['4 Multi-Level Play Decks', 'Twin 30ft Spiral Slides', 'Anti-Bacterial Ball Sea', 'Padded Safety Enclosures'],
     features: ['High-density foam impact padding', 'Clear mesh sightlines for parents', 'Shoe-free grip sock environment', 'Continuous sanitizer stations'],
     questBadgeId: 'badge-maze-master',
@@ -29,7 +34,7 @@ export const mockAttractions: Attraction[] = [
     description: 'Step into a futuristic glowing arena pulsing with adrenaline, atmospheric haze, and sci-fi soundscapes. Play tactical team battles or free-for-all tournaments equipped with lightweight wireless vests and high-precision laser blasters.',
     ageRange: 'Ages 6 to Adult',
     capacity: '24 Players per match',
-    image: '/src/assets/images/attraction_laser_tag_1794285572347.jpg',
+    image: laserTagImg,
     highlights: ['UV Blacklight Multi-Level Arena', 'Real-time Digital Score Tracking', 'Tactical Base Capture Modes', 'Fog & Dynamic Sound Effects'],
     features: ['State-of-the-art wireless sensors', 'Live spectator leaderboard screen', 'Referee-monitored fair play', '15-minute heart-pumping rounds'],
     questBadgeId: 'badge-laser-legend',
@@ -42,7 +47,7 @@ export const mockAttractions: Attraction[] = [
     description: 'Immerse in the latest high-tech games, from motion-simulated motorcycle and hypercar racing to immersive VR rollercoasters, classic air hockey, hoop shooters, and high-ticket claw machines with giant plushies.',
     ageRange: 'All Ages',
     capacity: '80+ Players simultaneously',
-    image: '/src/assets/images/attraction_arcade_vr_1794285572816.jpg',
+    image: arcadeVrImg,
     highlights: ['Tap-and-Play Reloadable Game Card', 'Instant Digital Ticket Redemption', 'VR Flight & Coaster Simulators', 'Massive Prize Counter'],
     features: ['Contactless Extreme Fun Card', 'High ticket payout rates', 'Latest 2026 arcade releases', 'Comfortable seating & spectators'],
     questBadgeId: 'badge-arcade-ace',
@@ -55,7 +60,7 @@ export const mockAttractions: Attraction[] = [
     description: 'Host the most memorable celebration ever! Dedicated private suites equipped with immersive party lighting, custom music controls, delicious hot food catering, party games, balloon decorations, and zero cleanup for parents.',
     ageRange: 'Ages 1 – 14',
     capacity: '15 to 40 Guests per suite',
-    image: '/src/assets/images/party_celebration_room_1794285573337.jpg',
+    image: partyRoomImg,
     highlights: ['4 Private Decorated Party Suites', 'Dedicated Personal Party Host', 'Artisan Pizza & Juice Boxes', 'Surprise Mascot Visit Option'],
     features: ['90-minute private room time', 'All-day playground access for guests', 'Complimentary grip socks for guest of honor', 'Digital invite maker included'],
     questBadgeId: 'badge-party-vip',

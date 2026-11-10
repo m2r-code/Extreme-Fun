@@ -1,6 +1,7 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { Ticket, Sparkles, Trophy, ShieldCheck, Gamepad2, ArrowRight } from 'lucide-react';
+import heroPlaygroundImg from '../assets/images/hero_indoor_playground_1794285571049.jpg';
 
 export const Hero: React.FC = () => {
   const { t, openBooking, setActiveModal, canSpinWheel } = useApp();
@@ -10,7 +11,7 @@ export const Hero: React.FC = () => {
       {/* Full-bleed Background Image with subtle Ken Burns zoom */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/images/hero_indoor_playground_1794285571049.jpg"
+          src={heroPlaygroundImg}
           alt="Extreme Fun Indoor Multi-Tier Playground and Family Entertainment Center"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center hero-bg-anim"
